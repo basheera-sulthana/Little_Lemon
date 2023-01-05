@@ -1,0 +1,122 @@
+{
+  "login": [
+    {
+      "id": 1
+    },
+    {
+      "logName": "mmmmnn",
+      "logPwd": "vvvgggggggSss6666",
+      "id": 3
+    },
+    {
+      "logName": "basheera",
+      "logPwd": "sssssASSDD33",
+      "id": 4
+    },
+    {
+      "logName": "nasrin",
+      "logPwd": "nnnnnnnSdddd555",
+      "id": 5
+    }
+  ],
+  "register": [
+    {
+      "id": 1
+    },
+    {
+      "regName": "Mustafha Ahmad Shaik",
+      "regAddress": "bbbbbbbbbbbbbbbbbb",
+      "regNum": "9999999999",
+      "regEmail": "o190074@rguktong.ac.in",
+      "regPwd": "nnnnnnAffff666",
+      "id": 2
+    },
+    {
+      "regName": "chitttuuu",
+      "regAddress": "gggggggggg",
+      "regNum": "1234567890",
+      "regEmail": "abc@gmsail.com",
+      "regPwd": "vvvvvssA",
+      "id": 3
+    },
+    {
+      "regName": "Mustafha Ahmad Shaik",
+      "regAddress": "bbbbbbbbbbbbbbbbbb",
+      "regNum": "9999999999",
+      "regEmail": "o190074@rguktong.ac.in",
+      "regPwd": "hhhhhhAddd555",
+      "id": 4
+    },
+    {
+      "regName": "basha",
+      "regAddress": "ssssssssssss",
+      "regNum": "1234567894",
+      "regEmail": "ddd@gmauil.com",
+      "regPwd": "dddddAsd444",
+      "id": 5
+    },
+    {
+      "regName": "Mustafha Ahmad Shaik",
+      "regAddress": "bbbbbbbbbbbbbbbbbb",
+      "regNum": "9999999999",
+      "regEmail": "o190074@rguktong.ac.in",
+      "regPwd": "ggggSrrrr666",
+      "id": 6
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 1234567890,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "image1.jpg"
+    },
+    {
+      "id": 2,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 1234567890,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "image2.jpg"
+    },
+    {
+      "id": 3,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 1234567890,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "image1.jpg"
+    },
+    {
+      "id": 4,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 1234567890,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "image2.jpg"
+    }
+  ],
+  "book_room": [
+    {
+      "id": 1
+    },
+    {
+      "startDate": "2022-10-21",
+      "endDate": "2022-10-22",
+      "numPersons": "2",
+      "numRooms": "2",
+      "roomType": "Single Room",
+      "id": 2
+    }
+  ]
+}
