@@ -14,10 +14,9 @@ function App() {
   return (
     <>
     <div>
-    <h1>App.js file</h1></div>
+    <h1>welcome to App.js file</h1></div>
      </>
   );
 }
 
 export default App;
- 
