@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
 // import { useEffect } from "react";
 // import { Route, Routes } from "react-router-dom";
-import "./App.css";
+
 
 function App() {
   // useEffect(() => {
@@ -14,7 +15,9 @@ function App() {
   return (
     <>
     <div>
-    <h1>welcome to App.js file</h1></div>
+    <br/><br/>
+    <Home/>
+    </div>
      </>
   );
 }
