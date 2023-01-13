@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 // import { useEffect } from "react";
-// import { Route, Routes } from "react-router-dom";
-
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import BookingPage from "./components/BookingPage";
 
 function App() {
   // useEffect(() => {
@@ -14,11 +15,13 @@ function App() {
 
   return (
     <>
-    <div>
-    <br/><br/>
-    <Home/>
-    </div>
-     </>
+      <div>
+        <Routes>
+           <Route path="/" element={<HomePage />}/>
+          <Route path="/booking" element={<BookingPage />}/>
+        </Routes>
+      </div>
+    </>
   );
 }
 
