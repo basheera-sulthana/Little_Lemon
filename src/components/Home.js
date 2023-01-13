@@ -80,6 +80,10 @@ function Home() {
           </h3>
         </div>
       </div>
+      <div className="container">
+      <h1>Line1dncjdcjc</h1>
+      <h1>Line2knckdnckdcndkkdnjn</h1>
+      </div>
     </>
   );
 }
