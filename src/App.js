@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import BookingPage from "./components/BookingPage";
+import NavBar from "./components/NavBar";
 
 function App() {
   // useEffect(() => {
@@ -16,9 +17,11 @@ function App() {
   return (
     <>
       <div>
+        <NavBar />
         <Routes>
-           <Route path="/" element={<HomePage />}/>
-          <Route path="/booking" element={<BookingPage />}/>
+         <Route path="/" element={<HomePage />} />
+          <Route path="/HomePage" element={<HomePage />} />
+          <Route path="/booking" element={<BookingPage />} />
         </Routes>
       </div>
     </>
