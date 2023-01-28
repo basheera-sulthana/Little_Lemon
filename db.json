@@ -1,67 +1,33 @@
 {
-  "login": [
+  "table": [
     {
       "id": 1
     },
     {
-      "logName": "mmmmnn",
-      "logPwd": "vvvgggggggSss6666",
+      "date": "2023-02-03",
+      "time": "18:00",
+      "guests": "9",
+      "occasion": "Birthday",
+      "id": 2
+    },
+    {
+      "date": "2023-01-27",
+      "time": "21:00",
+      "guests": "2",
+      "occasion": "Anniversary",
       "id": 3
     },
     {
-      "logName": "basheera",
-      "logPwd": "sssssASSDD33",
+      "date": "2023-02-05",
+      "time": "20:00",
+      "guests": "2",
+      "occasion": "Birthday",
       "id": 4
-    },
-    {
-      "logName": "nasrin",
-      "logPwd": "nnnnnnnSdddd555",
-      "id": 5
     }
   ],
   "register": [
     {
       "id": 1
-    },
-    {
-      "regName": "Mustafha Ahmad Shaik",
-      "regAddress": "bbbbbbbbbbbbbbbbbb",
-      "regNum": "9999999999",
-      "regEmail": "o190074@rguktong.ac.in",
-      "regPwd": "nnnnnnAffff666",
-      "id": 2
-    },
-    {
-      "regName": "chitttuuu",
-      "regAddress": "gggggggggg",
-      "regNum": "1234567890",
-      "regEmail": "abc@gmsail.com",
-      "regPwd": "vvvvvssA",
-      "id": 3
-    },
-    {
-      "regName": "Mustafha Ahmad Shaik",
-      "regAddress": "bbbbbbbbbbbbbbbbbb",
-      "regNum": "9999999999",
-      "regEmail": "o190074@rguktong.ac.in",
-      "regPwd": "hhhhhhAddd555",
-      "id": 4
-    },
-    {
-      "regName": "basha",
-      "regAddress": "ssssssssssss",
-      "regNum": "1234567894",
-      "regEmail": "ddd@gmauil.com",
-      "regPwd": "dddddAsd444",
-      "id": 5
-    },
-    {
-      "regName": "Mustafha Ahmad Shaik",
-      "regAddress": "bbbbbbbbbbbbbbbbbb",
-      "regNum": "9999999999",
-      "regEmail": "o190074@rguktong.ac.in",
-      "regPwd": "ggggSrrrr666",
-      "id": 6
     }
   ]
 }
