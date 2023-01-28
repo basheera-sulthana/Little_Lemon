@@ -7,6 +7,7 @@ function NavBar() {
         <nav
           className="navbar navbar-expand-lg"
           style={{ backgroundColor: "#222629" }}
+          // style={{ backgroundColor: "#ffcccc" }}
         >
           <a
             className="navbar-brand"
@@ -51,12 +52,23 @@ function NavBar() {
             <li className="nav-item active">
               <a
                 className="nav-link"
-                href="Register"
+                href="BookingForm"
                 style={{ color: "white" }}
               >
                 Bookings Page
               </a>
             </li>
+
+            <li className="nav-item active">
+            <a
+              className="nav-link"
+              href="Home"
+              style={{ color: "white" }}
+            >
+              Occasions
+            </a>
+          </li>
+
           </ul>
         </nav>
       </header>

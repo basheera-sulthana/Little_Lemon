@@ -125,68 +125,80 @@ function BookingForm() {
 
   return (
     <>
-      <div className="container bg-light col-md-4">
+    <br/><br/>
+      <div className="container bg-light col-md-4" style={{}}>
         <form
-          style={{ display: "grid", maxWidth: "200px", gap: "20px" }}
+          className="mt-3"
+          // style={{ display: "grid", maxWidth: "100px", gap: "20px" }}
           onSubmit={handleSubmit}
         >
-          <label>Choose date</label>
-          <input
-            type="date"
-            name="date"
-            value={details.date}
-            onChange={handleChange}
-          />
-          <span className="text-danger">{errors.date}</span>
+          <div className="mb-3">
+            <label>Choose date</label>
+            <input
+              type="date"
+              name="date"
+              value={details.date}
+              onChange={handleChange}
+              className="form-control"
+              style={{width:"100px" , height:"20px"}}
+            />
 
-          <label htmlFor="res-time">Choose time</label>
-          <select
-            id="res-time "
-            name="time"
-            value={details.time}
-            onChange={handleChange}
-          >
-            <option value="">--select--</option>
-            <option>17:00</option>
-            <option>18:00</option>
-            <option>19:00</option>
-            <option>20:00</option>
-            <option>21:00</option>
-            <option>22:00</option>
-          </select>
-          <span className="text-danger">{errors.time}</span>
+            <span className="text-danger">{errors.date}</span>
+          </div>
 
-          <label>Number of guests</label>
-          <input
-            type="number"
-            placeholder="1"
-            min="1"
-            max="10"
-            name="guests"
-            value={details.guests}
-            onChange={handleChange}
-          />
-          <span className="text-danger">{errors.guests}</span>
+          <div className="mb-3">
+            <label htmlFor="res-time">Choose time</label>
+            <select
+              id="res-time "
+              name="time"
+              value={details.time}
+              onChange={handleChange}
+              className="form-control"
+            >
+              <option value="">--select--</option>
+              <option>17:00</option>
+              <option>18:00</option>
+              <option>19:00</option>
+              <option>20:00</option>
+              <option>21:00</option>
+              <option>22:00</option>
+            </select>
+            <span className="text-danger">{errors.time}</span>
+          </div>
 
-          <label htmlFor="occasion">Occasion</label>
-          <select
-            id="occasion"
-            name="occasion"
-            value={details.occasion}
-            onChange={handleChange}
-          >
-            <option value="">--select--</option>
-            <option>Birthday</option>
-            <option>Anniversary</option>
-            <option>Engagement</option>
-          </select>
-          <span className="text-danger">{errors.occasion}</span>
-
-          <input
-            type="submit"
-            value="Make Your reservation"
-            disabled={!valid}
-          />
+          <div className="mb-3">
+            <label>Number of guests</label>
+            <input
+              type="number"
+              placeholder="1"
+              min="1"
+              max="10"
+              name="guests"
+              value={details.guests}
+              onChange={handleChange}
+              className="form-control"
+            />
+            <span className="text-danger">{errors.guests}</span>
+          </div>
+          <div className="mb-3">
+            <label htmlFor="occasion">Occasion</label>
+            <select
+              id="occasion"
+              name="occasion"
+              value={details.occasion}
+              onChange={handleChange}
+              className="form-control"
+            >
+              <option value="">--select--</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Engagement</option>
+            </select>
+            <span className="text-danger">{errors.occasion}</span>
+          </div>
+          <button type="submit" className="btn btn-primary" disabled={!valid}>
+            Make Your reservation
+          </button>
 
           {mandatory ? (
             <div className="text-danger">

@@ -7,6 +7,7 @@ import "./Home.css";
 function Home() {
   return (
     <>
+   
       <div className="card1">
         <div className="frame1">
           <h3>
@@ -80,10 +81,7 @@ function Home() {
           </h3>
         </div>
       </div>
-      <div className="container">
-      <h1>Line1dncjdcjc</h1>
-      <h1>Line2knckdnckdcndkkdnjn</h1>
-      </div>
+      
     </>
   );
 }
